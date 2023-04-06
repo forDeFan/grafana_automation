@@ -1,0 +1,9 @@
+apiVersion: 1
+
+# Add custom data source at build
+# As in plugin info page: https://sriramajeyam.com/grafana-infinity-datasource/wiki/provisioning/
+datasources:
+  - name: Infinity
+    type: yesoreyeram-infinity-datasource
+    isDefault: true
+    editable: true
